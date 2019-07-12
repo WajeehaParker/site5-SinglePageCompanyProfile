@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Profile</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/products.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+       
+<!-----------------------------topbar--------------------->
+       
+   <div id="top-bar">
+       <i class="fa fa-phone"></i> +92 333 2578467
+       <a id="email" href="#"><i class="fa fa-envelope"></i> info@example.com</a>
+       <span id="socialLinks">
+       <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;
+       <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;
+       <a href="#"><i class="fa fa-instagram"></i></a></span>
+   </div>
+       
+<!--------------------------header---------------------->
+    <nav id="nav-bar" class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-header" href="#"><img src="images/viator.jpg"></a>
+      <button class="navbar-toggler navbar-header" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span></button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto" id="nav-menu">
+          <li class="nav-item"> <a class="nav-link" href="#aboutUs">About Us</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#products"> Products</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#news"> News</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#reviews"> Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contactUs">Contact Us</a></li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item" style="float: right" id="login"><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="nav-link" href="#">Login <i class="fa fa-search"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+     
+<!--      <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="images/mainpic.png"></div>-->
+
+    <div id="mainpic">
+            <img src="images/mainpic.png" style="width:100%;">
+            <div id="text">
+                <h1>Demand more from your technology</h1>
+                <p>Starting with the latest innovation at its core, featuring Intel® Core™ <br> processors, and crafted from the finest materials</p>
+            </div>
+        </div>
+      
+<!------------------------about us------------------->
+      
+    <div id="aboutUs">
+          <h1>About <span id="us">Us</span></h1>
+          <hr>
+          <p>Welcome to viator, your number one source for all laptop computers. We're dedicated to giving you the very best of our products, with a focus on dependability, customer service and uniqueness.
+          Founded in 2018 by George Steive, Viator has come a long way from its beginnings in a small building. When Viator first started out, its passion for latest technology drove it to do intense research, and gave it the impetus to turn hard work and inspiration into to a booming company. We now serve customers all over the world, and are thrilled to be a part of the eco-friendly, wing of the IT industry.
+          We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us. <br>
+          Sincerely,
+          George Steive</p>
+      </div>
+      
+<!-------------------------products------------------->
+      
+    <div id="products">
+      <div id="premium">
+          <img id="premiumimage" src="images/premium.jpg">
+          <div id="text"><p>Life hacks that go the distance for work and play. Explore the Premium Family below.</p>
+          <img id="darrow" src="images/downarrow.png"></div>
+      </div>
+                 
+      <div id="topMenu">
+            <div id="box">
+              <div class="scroller scroller-left"><i class="fa fa-angle-left"></i></div>
+              <div class="scroller scroller-right"><i class="fa fa-angle-right"></i></div>
+              <div class="wrapper">
+                <div class="list">
+                  <div id="p1" class="item active">Spectre x360</div>
+                  <div id="p2" class="item">ENVY PCs</div>
+                  <div id="p4" class="item">Elite x2 1013 G3</div>
+                  <div id="p5" class="item">EliteBook 1050 G1</div>
+                  <div id="p6" class="item">ZBooks</div>
+                </div>
+              </div>
+            </div>
+        </div>
+      
+      <div id="spectre">
+         
+          <div id="s1">
+              <h1>Performance Beyond Expectations</h1>
+              <p>Whether you’re looking for an all-day battery or our most powerful Spectre yet – accelerate your ability to create with unprecedented performance and impeccable craftsmanship.</p>
+              <span id="buttons" class="row">
+                  <div class="col-sm-6 b1"><button>Learn more</button></div>
+                  <div class="col-sm-6 b2"><button>Shop now</button></div>
+              </span>
+          </div>
+          
+          <div id="s2" class="row">
+              <div class="col-md-5">
+                <div class="row">
+                    <img id="s2img1" class="col-md-3" src="images/spectra3.png">
+                     <h1 class="col-md-9">World-class battery life</h1>
+                </div>
+                <p>Don’t hold back, power through your most demanding days with up to 22 hours of battery life2,21 and lightning-fast 8th Generation quad-core Intel® Core™ processor.</p>
+                  <img id="s2img2" src="images/spectra2.jpg">
+              </div>
+              <div class="col-md-7" id="s2img3"><img src="images/spectra1.png"></div>
+          </div>
+          
+          <div id="s3" class="row">
+              <div class="col-md-6"><img id="s3img1" src="images/cameraswitch.jpg"></div>
+              <div id="s3col2" class="col-md-6">
+                 <div class="row">
+                     <div id="s3img2" class="col-md-3" ><img src="images/locklogo.png" alt=""></div>
+                     <h1 class="col-md-9">Smart technology. Designed for security.</h1>
+                 </div>
+                 <p>Enhanced security options like IR camera, fingerprint reader, privacy camera kill switch and privacy screen keep you secure and your information private.</p>
+              </div>              
+          </div>
+          
+          <div id="s4" class="row">
+              <div class="col-md-5">
+                  <div class="row">
+                      <img class="col-md-3" src="images/displaylogo.JPG">
+                      <h1 class="col-md-9">4K micro-edge display</h1>
+                  </div>
+                  <p>With 8.2 million pixels, the 3840 x 2160 resolution delivers your content in jaw-dropping quality with true-to-life definition.</p>
+              </div>
+              <div class="col-md-7"><img src="images/spectra4.png" alt=""></div>
+          </div>
+          
+          <div id="s5">
+              <img src="images/pen.png">
+              <div id="text">
+                  <h1>Digital Pen: A pen that can do it all.</h1>
+                  <p>Take notes, navigate, draw, doodle, edit, and make, with a digital pen.29</p>
+              </div>
+          </div>
+          
+          <div id="s6">
+              <hr style="border: 1px solid darkgray; width: 90%; margin-left: 5%; margin-top: 200px;">
+              <span id="buttons" class="row">
+                  <div class="col-sm-6 b1"><button>Learn more</button></div>
+                  <div class="col-sm-6 b2"><button>Shop now</button></div>
+              </span>
+          </div>
+          
+      </div>
+      
+      <div id="envy">
+          <div id="s1">
+              <h1>Unparalleled security and powerhouse performance.</h1>
+              <p>More power, more security, and more ways to do it all. With the power, versatility and suite of cutting-edge security features you want, stay productive and protected like never before.</p>
+              <span id="buttons" class="row">
+                  <div class="col-sm-6 b1"><button>ENVY x360</button></div>
+                  <div class="col-sm-6 b2"><button>ENVY Laptop</button></div>
+              </span>
+          </div>
+          
+          <div id="s7"><img src="images/envy1.png" alt=""></div>
+          
+          <div id="s8" class="row">
+              <div class="col-md-5">
+                  <span class="row">
+                      <img id="s8img1" class="col-md-3" src="images/locklogo.png">
+                      <h1 class="col-md-9">Next level privacy</h1>
+                  </span>
+                  <p>Protect your privacy with a Webcam Kill Switch, HP Sure View privacy screen (optional) and Fingerprint reader.</p>
+                  <img id="s8img2" src="images/envy2.jpg">
+              </div>
+              <div class="col-md-7"><img id="s8img3" src="images/envy3.jpg"></div>
+          </div>
+          
+          <div id="s5">
+              <img src="images/envy4.png">
+              <div id="text">
+                  <h1>Look like a boss</h1>
+                  <p>Thin and light design with all-metal chassis.</p>
+              </div>
+          </div>
+          
+          <div id="s9" class="row">
+              <div class="col-md-5">
+                  <span class="row">
+                      <img id="s9img1" class="col-md-3" src="images/displaylogo.JPG">
+                      <h1 class="col-md-9">Next level entertainment</h1>
+                  </span>
+                  <p>Up to 4K4 (optional), 3-way micro-edge display and Audio by Bang & Olufsen.</p>
+              </div>
+              <div class="col-md-7"><img id="s9img2" src="images/envy5.png"></div>
+          </div>
+          
+          <div id="s6">
+              <hr style="border: 1px solid darkgray; width: 90%; margin-left: 5%; margin-top: 100px;">
+              <span id="buttons" class="row">
+                  <div class="col-sm-6 b1"><button>ENVY x360</button></div>
+                  <div class="col-sm-6 b2"><button>ENVY Laptop</button></div>
+              </span>
+          </div>
+          
+      </div>
+      
+      <div id="eliteg3">
+          <div id="s1">
+              <h1>HP Elite x2 1013 G3</h1>
+              <p>Win the day with a detachable PC that supports your need for full PC performance and unleashes your creativity with the freedom of a tablet.</p>
+              <div class="b3"><button>Learn more</button></div>
+          </div>
+          
+          <div id="s7"><img src="images/eliteg31.png" alt=""></div>
+          
+          <div id="s8" class="row">
+              <div class="col-md-5">
+                  <span class="row">
+                      <img id="s8img1" class="col-md-3" src="images/meterlogo.JPG">
+                      <h1 class="col-md-9">PC performance. Tablet agility.</h1>
+                  </span>
+                  <p>Our smallest detachable for business28 gives you powerful processors to handle your professional apps.</p>
+                  <img id="s8img2" src="images/eliteg32.jpg">
+              </div>
+              <div class="col-md-7"><img id="s8img3" src="images/eliteg33.jpg"></div>
+          </div>
+          
+          <div id="s3" class="row">
+              <div class="col-md-6"><img id="s3img1" src="images/eliteg34.jpg"></div>
+              <div id="s3col2" class="col-md-6">
+                 <div class="row">
+                     <div id="s3img2" class="col-md-3" ><img src="images/privatelogo.JPG"></div>
+                     <h1 class="col-md-9">Keep it private</h1>
+                 </div>
+                 <p>Get instant privacy with a touch of a button with HP Sure View14, an optional integrated privacy screen developed by HP.</p>
+              </div>              
+          </div>
+          
+          <div id="s9" class="row">
+              <div class="col-md-5">
+                  <span class="row">
+                      <img id="s9img1" class="col-md-3" src="images/collaborationlogo.JPG">
+                      <h1 class="col-md-9">Crystal clear collaboration</h1>
+                  </span>
+                  <p>Purpose-built for collaboration with premium audio, high-resolution cameras, quick launch shortcut buttons, and a world-facing mic.</p>
+              </div>
+              <div class="col-md-7"><img id="s9img2" src="images/eliteg35.jpg"></div>
+          </div>
+          
+          <div id="s6">
+              <hr style="border: 1px solid darkgray; width: 90%; margin-left: 5%; margin-top: 100px;">
+              <div class="b3"><button>Learn more</button></div>
+          </div>
+          
+      </div>
+      
+      <div id="ebookg1">
+          <div id="s1">
+              <h1>Introducing the powerful HP EliteBook 1050 G1</h1>
+              <p>Performance to bring your vision to life and portability to share it with our first ultraslim business notebook with optional NVIDIA®GTX 1050 hybrid graphics.25</p>
+              <div class="b3"><button>Learn more</button></div>
+          </div>
+          
+          <div id="s7"><img src="images/ebookg11.jpg" alt=""></div>
+          
+          <div id="s8" class="row">
+              <div class="col-md-5">
+                  <span class="row">
+                      <img id="s8img1" class="col-md-3" src="images/meterlogo.JPG">
+                      <h1 class="col-md-9">PC performance. Tablet agility.</h1>
+                  </span>
+                  <p>Our smallest detachable for business28 gives you powerful processors to handle your professional apps.</p>
+                  <img id="s8img2" src="images/ebookg12.jpg">
+              </div>
+              <div class="col-md-7"><img id="s8img3" src="images/ebookg13.png"></div>
+          </div>
+          
+          <div id="s3" class="row">
+              <div class="col-md-6"><img id="s3img1" src="images/ebookg14.jpg"></div>
+              <div id="s3col2" class="col-md-6">
+                 <div class="row">
+                     <div id="s3img2" class="col-md-3" ><img src="images/privatelogo.JPG"></div>
+                     <h1 class="col-md-9">Keep it private</h1>
+                 </div>
+                 <p>Get instant privacy with a touch of a button with HP Sure View14, an optional integrated privacy screen developed by HP.</p>
+              </div>              
+          </div>
+          
+          <div id="s9" class="row">
+              <div class="col-md-5">
+                  <span class="row">
+                      <img id="s9img1" class="col-md-3" src="images/collaborationlogo.JPG">
+                      <h1 class="col-md-9">A collaborative force</h1>
+                  </span>
+                  <p>Power your collaboration with Audio by Bang & Olufsen, HP Noise Cancellation, and a world-facing third microphone..</p>
+              </div>
+              <div class="col-md-7"><img id="s9img2" src="images/ebookg15.jpg"></div>
+          </div>
+          
+          <div id="s6">
+              <hr style="border: 1px solid darkgray; width: 90%; margin-left: 5%; margin-top: 100px;">
+              <div class="b3"><button>Learn more</button></div>
+          </div>
+          
+      </div>
+      
+      <div id="zbook">
+          <div id="s1">
+              <h1>The new ZBook Premium Suite</h1>
+              <p>Designed for creative professionals, architects and engineers, HP ZBooks offer pro-grade performance in a slim, light, mobile design.</p>
+              <span id="buttons" class="row">
+                  <div class="col-sm-6 b1"><button>Learn more</button></div>
+                  <div class="col-sm-6 b2"><button>Shop now</button></div>
+              </span>
+          </div>
+          
+          <div id="s7"><img src="images/zbook1.png"></div>
+          
+          <div id="s8" class="row">
+              <div class="col-md-5">
+                 <div>
+                  <h1 class="col-md-9">ZBook x2</h1>
+                  <p>The world’s most powerful detachable PC – the ultimate inking solution with a battery-less Wacom EMR pen and a detachable Bluetooth® keyboard. </p>
+                  <ul>
+                      <li>18 customizable application shortcuts</li>
+                      <li>HP DreamColor display with 1 billion colors</li>
+                      <li>Quad-core Intel® Core™ processors</li>
+                  </ul></div>
+                  <img id="s8img2" src="images/zbook2.jpg">
+              </div>
+              <div class="col-md-7"><img id="s8img3" src="images/zbook3.jpg"></div>
+          </div>
+          
+          <div id="s3" class="row">
+              <div id="s3col1" class="col-md-6"><img id="s3img1" src="images/zbook4.png"></div>
+              <div id="s3col2" class="col-md-6">
+                 <h1 class="col-md-9">ZBook Studio x360</h1>
+                 <p>The world’s most powerful detachable PC – get the versatile design you want with the pro-grade performance you need. Showcase your work like never before with five unique modes. </p>
+                 <ul>
+                      <li>4K DreamColor anti-glare touch display</li>
+                      <li>Professional inking with the Wacom AES pen</li>
+                      <li>NVIDA® Quadro® P1200 graphics</li>
+                 </ul>
+              </div>              
+          </div>
+          
+          <div id="s9" class="row">
+              <div class="col-md-5">
+                  <h1 class="col-md-9">ZBook Studio</h1>
+                  <p>The world’s brightest 4K laptop display – stunning DreamColor technology meets pro-grade performance. Bring your visions to life on-the-go with this ultra-slim powerhouse.</p>
+                  <ul>
+                      <li>1 billion colors and 600nit brightness</li>
+                      <li>6-core Intel® Xeon® Processors</li>
+                      <li>32 GB memory</li>
+                  </ul>
+              </div>
+              <div class="col-md-7"><img id="s9img2" src="images/zbook5.jpg"></div>
+          </div>
+          
+          <div id="s6">
+              <hr style="border: 1px solid darkgray; width: 90%; margin-left: 5%; margin-top: 100px;">
+              <span id="buttons" class="row">
+                  <div class="col-sm-6 b1"><button>Learn more</button></div>
+                  <div class="col-sm-6 b2"><button>Shop now</button></div>
+              </span>
+          </div>
+          
+      </div>
+    </div>
+      
+<!-------------------------news------------------------>
+    
+     <div id="news" class="parallax">
+     <h1><span id="n">N</span> ews</h1>
+     <hr>
+     <div class="card-deck">
+      <div class="card">
+        <div class="card-body">
+          <img src="" class="card-img-top">
+          <h5 class="card-title">Viator Inc misses revenue estimates, shares down 12 pct</h5>
+          <p class="card-text">Viator Inc reported quarterly revenue that fell short of Wall Street estimates on Wednesday, due to weaker-than-expected sales in both its personal computer and printing businesses, sending shares down 12 percent after hours.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="" class="card-img-top">
+          <h5 class="card-title">Viator Inc quarterly revenue beats estimates</h5>
+          <p class="card-text">Viator Inc, which houses the hardware business of former Hewlett-Packard Co, reported quarterly revenue that beat analysts' estimates, driven by growth in its personal systems that sells notebooks and desktops and the acquisition of Samsung's printer business.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="" class="card-img-top">
+          <h5 class="card-title">Fed Circuit moves HP patent case out of East Texas</h5>
+          <p class="card-text">HP Inc on Wednesday won an appeals court ruling that moves a patent infringement case against the computer maker out of the plaintiff-friendly Eastern District of Texas.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="" class="card-img-top">
+          <h5 class="card-title">HP Inc revenue tops estimates on personal systems business</h5>
+          <p class="card-text">HP Inc's quarterly revenue beat analysts' estimates on Thursday, driven by growth in its personal systems business that sells notebooks and desktops and the acquisition of Samsung's printer business.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    </div>
+     
+<!--------------------------reviews------------------->
+      
+      <div id="reviews">
+          <h1>Client <span id="us">Reviews</span></h1>
+          <hr>
+          <div id="comment" class="row">
+              <div class="col-md-3">
+                  <img src="images/person.jpg">
+                  <p>A lovely little jewel of a notebook. The laptop sports one of the best keyboards you’ll find on such a thin-and-light notebook.</p>
+                  <h6 style="font-weight: bold; text-align: center; color: white">John Doe</h6>
+              </div>
+              <div class="col-md-3">
+                  <img src="images/person.jpg">
+                  <p>A lovely little jewel of a notebook. The laptop sports one of the best keyboards you’ll find on such a thin-and-light notebook.</p>
+                  <h6 style="font-weight: bold; text-align: center; color: white">John Doe</h6>
+              </div>
+              <div class="col-md-3">
+                  <img src="images/person.jpg">
+                  <p>A lovely little jewel of a notebook. The laptop sports one of the best keyboards you’ll find on such a thin-and-light notebook.</p>
+                  <h6 style="font-weight: bold; text-align: center; color: white">John Doe</h6>
+              </div>
+              <div class="col-md-3">
+                  <img src="images/person.jpg">
+                  <p>A lovely little jewel of a notebook. The laptop sports one of the best keyboards you’ll find on such a thin-and-light notebook.</p>
+                  <h6 style="font-weight: bold; text-align: center; color: white">John Doe</h6>
+              </div>
+          </div>
+      </div>
+       
+<!----------------------contact us----------------->
+      
+    <div id="contactUs" class="row">
+          <div id="contact-us-left" class="col-md-6">
+              <label for="address">Display Address</label>
+              <h5>65 PAKINGTON STREET KEW</h5>
+              <label for="contact">Contact</label>
+              <h5>CYNTHIA O’GORMAN</h5>
+              <label for="phone">Phone</label>
+              <h5>0410 720 188    03 9681 8221</h5>
+              <label for="email">Email</label>
+              <h5>info@example.com</h5>
+          </div>
+          <div id="contact-us-right" class="col-md-6">
+              <h3>REGISTER YOUR INTEREST</h3>
+              <h5>Sign up for news & offers</h5>
+              <form action="#">
+                  <div class="row">
+                      <div class="col-sm-6">
+                          <label for="fname">First Name</label><br>
+                          <input id="fname" maxlength="15" type="text">
+                          <hr>
+                      </div>
+                      <div class="col-sm-6">
+                          <label for="lname">Last Name</label><br>
+                          <input id="lname" maxlength="15" type="text">
+                          <hr>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-6">
+                          <label for="email">Email Address</label><br>
+                          <input id="email" type="text">
+                          <hr>
+                      </div>
+                      <div class="col-sm-6">
+                          <label for="pno">Phone Number</label><br>
+                          <input id="pno" maxlength="15" type="text">
+                          <hr>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-12">
+                          <center><button>REGISTER NOW</button></center>
+                          <h6>Already Registered? <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;" href="#"> Login.</a></h6>
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+
+    <div id="id01" class="modal">
+
+      <form class="modal-content animate">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+       
+<!----------------------bottombar------------------->
+       
+   <div id="bottom-bar" class="row">
+    <div class="col-md-6" id="bottom-bar-left">
+        <span id="copyright">&copy; exampleWebsites, 2019</span>
+    </div>
+    <div class="col-md-6" id="bottom-bar-right">
+       <span id="tc"> <a href="#">Terms and Conditions</a> | <a href="#">Privacy Policy</a></span>
+       </div>
+   </div>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+</html>

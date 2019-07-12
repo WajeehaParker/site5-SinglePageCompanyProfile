@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.row{
+    width: 100%;
+}
+
+/*------------------topbar---------------------------*/
+
+#top-bar{
+    background-color: black;
+    padding: 0 10% 0 10%;
+    color: white;
+}
+
+#top-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+#email{
+    padding-left: 15px;
+}
+
+#socialLinks{
+    float: right;
+}
+
+/*------------------header------------------*/
+
+#nav-bar{
+    padding: 0 8% 0 6%;
+    background-color: white;
+    position: sticky;
+}
+
+.navbar img{
+    width: 200px;
+    height: 60px;
+}
+
+#navbarSupportedContent{
+    margin-left: 15%;
+}
+
+#navbarSupportedContent li a{
+    color: black;
+    margin-right: 15px;
+}
+
+#navbarSupportedContent li a:hover{
+    color: goldenrod;
+}
+
+#mainpic {
+    position: relative;
+}
+
+#mainpic #text{
+    position: absolute;
+    bottom: 30%;
+    left: 3%;
+    color: white;    
+}
+
+#mainpic h1{
+    font-family: serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 3px 3px black;
+}
+
+#mainpic p{
+    font-family: serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: 1px 1px black
+}
+
+/*
+.parallax {
+    min-height: 500px;
+    background: transparent;
+}
+
+#para{
+    z-index: 2;
+    position: relative
+}
+*/
+
+/*---------------aboutus-------------------*/
+
+#aboutUs{
+    margin: 80px 10% 80px 10%;
+}
+
+#aboutUs h1{
+    text-align: center
+}
+
+#aboutUs hr{
+    width: 6%;
+    border: 1px solid goldenrod;
+    margin: 15px 0 35px 47%;
+}
+
+#us{
+    font-size: 35px;
+    color: goldenrod;
+}
+
+/*-------------------news------------------*/
+
+.parallax {
+    background: url("../images/newz.png") no-repeat center;
+    background-size: cover;
+    background-attachment: scroll;
+    z-index: 1;
+    width: 100%;
+    padding: 50px 10% 100px 10%;
+}
+
+.card-body{
+    border: 3px solid goldenrod;
+    background: url("../images/newz.png");
+    color: white;
+}
+
+#news h1{
+    color:floralwhite;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#n{
+    color: goldenrod;
+    font-size: 40px;
+}
+
+#news hr{
+    width: 3%;
+    border: 2px solid goldenrod;
+    margin: -25px 0 45px 48%;
+}
+
+/*-----------------reviews--------------*/
+
+#reviews h1{
+    text-align: center;
+}
+
+#reviews hr{
+    width: 6%;
+    border: 1px solid goldenrod;
+    margin: 15px 0 65px 47%;
+}
+
+#comment{
+    padding: 0 20% 0 20%;
+}
+
+#comment .col-md-3{
+    background-color: orange;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    border: 1px solid black;
+}
+
+#comment img{
+    border: 1px solid goldenrod;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+#comment p{
+    color: white;
+    padding: 20px 10% 0 13%;
+    font-size: 12px;
+    text-align: left;
+    
+}
+
+#reviews{
+    margin: 80px 0 80px 0;
+}
+
+/*------------------contact-us-left-------------------*/
+
+#contact-us-left{
+    float: left;
+    padding: 180px 0 180px 10%;
+}
+
+#contact-us-left label{
+    color: dimgray;
+    padding-top: 40px;
+}
+
+#contact-us-left h5{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/*------------------contact-us-right------------------*/
+
+#contact-us-right{
+    background-color: rgb(42,37,56);
+    padding: 120px 0 100px 0;
+    float: right;
+}
+
+#contact-us-right h3{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#contact-us-right h5{
+    text-align: center;
+    font-family: serif;
+    color: lightgray;
+    letter-spacing: 2px;
+    margin: 25px 0 100px 0;
+}
+
+#contact-us-right label{
+    color: goldenrod;
+}
+
+#contact-us-right input[type="text"]{
+    border: 0;
+    outline: 0;
+    color: white;
+    background-color: rgb(42,37,56);
+    height: 30px;
+    width: 90%;
+}
+
+form{
+    padding: 0 70px 0 70px;
+}
+
+form hr{
+    background-color: goldenrod;
+    width: 90%;
+    position: -5px;
+}
+
+form label{
+    margin-top: 30px;
+}
+
+#contact-us-right textarea{
+    outline: 0;
+    color: white;
+    background-color: rgb(42,37,56);
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+
+form button{
+    margin-top: 40px;
+    padding: 5% 20%;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(42,37,56);
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+form button:hover{
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    background-color: rgb(42,37,56);
+}
+
+form h6{
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+}
+
+form h6 a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+form h6 a:hover{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+/*-------------------login form----------------*/
+
+#id01 input[type=text], #id01 input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#id01 button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#id01 button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+#id01 .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+#id01 .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+#id01 img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+#id01 .container {
+  padding: 16px;
+}
+
+#id01 span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+#id01 .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+#id01 .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+#id01 .close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#id01 .close:hover, #id01 .close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+#id01 .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/*------------------bottomBar----------------*/
+
+#bottom-bar-left{
+    padding-left: 8%;
+    background-color: rgb(42,37,56);
+}
+
+#bottom-bar-right{
+    background-color: rgb(42,37,56);
+    padding-right: 8%;
+}
+
+#copyright{
+    float: left;
+    color: white
+}
+
+#bottom-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+#tc{
+    float: right;
+}
+
+/****************************************************************************************************************media queries****************** ***********************************************************************************************/
+
+
+@media screen and (max-width: 768px) {
+    #mainpic img{
+        height: 300px;
+    }
+    #bottom-bar-left{
+        background-color: rgb(42,37,56);
+    }
+    #tc{
+        float: right;
+    }
+    .card{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #mainpic #text{
+        top: 50px;
+    }
+}
